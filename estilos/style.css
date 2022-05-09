@@ -1,0 +1,42 @@
+h1{
+    font-family:sans-serif;
+}
+#nascimento{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+}
+body{
+    background-color:rgb(132, 193, 197);
+    font-family: 'Montserrat', sans-serif;
+}
+#city-natal{
+    font-style: italic;
+}
+#city-moor{
+    font-style: unset;
+}
+.persistente{
+    font-size: 20px;
+}
+.crítico{
+    font-size: 15px;
+}
+.adaptabilidade{
+    font-size: 20px;
+}
+.flexivel{
+    font-size: 18px;
+}
+#habilidades, #link-interno{
+    background-color: aquamarine;
+}
+#nome{
+    text-align: center;
+    font-style: italic;
+}
+#foto{
+    border-radius: 10%;
+}
+div{
+    text-align: center;
+}
