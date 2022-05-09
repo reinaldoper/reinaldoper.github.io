@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
     <style>
         h1{
             font-family:sans-serif;
@@ -14,6 +17,7 @@
         }
         body{
             background-color:rgb(132, 193, 197);
+            font-family: 'Montserrat', sans-serif;
         }
         #city-natal{
             font-style: italic;
@@ -33,6 +37,13 @@
         .rapido{
             font-size: 18px;
         }
+        #habilidades, #link-interno{
+            background-color: aquamarine;
+        }
+        #nome{
+            text-align: center;
+            font-style: italic;
+        }
     </style>
     <title>Portfólio Reinaldo</title>
 </head>
@@ -41,12 +52,22 @@
     <img src="Reinaldo.jpg" id="foto" alt="Foto Reinaldo" width="250px">
     <p id="nascimento">
         Nascido na cidade de <strong id="city-natal">Toledo/PR no ano de 1980</strong> e atualmente morando em <strong id="city-moor">Dourados/MS </strong> desde 2002. 
-        Formado em Eng. de Software (Unicesumar) desde 2021, estudante de tecnologia Web na Trybe.
+        Formado em Eng. de Software (Unicesumar) desde 2021, estudante de tecnologia e desenvolvimento Web na Trybe.
+        <br>
+        <br>
+        <p>
+            <em>
+                Formado em Técnico em Eletrotécnica pelo <strong>Senai</strong> no ano de 2005, trabalho na área elétrica e automação industrial desde então.
+                <br>
+                Apaixonado por tecnologia e estou em momento de transição de carreira, onde quero migrar para área de <strong>desenvolvimento de software.</strong>
+                Quero agregar minha experiência ao longo desses anos em indústrias e somar junto há esse novo desafio.
+            </em>
+        </p>
     </p>   
     <br>
         <!-- seção-1 -->
     <h4>Habilidades</h4>
-    <ul id="qualidades">
+    <ul id="habilidades">
         <li class="persistente">Persistente</li>
         <li class="criativo">Criativo</li>
         <li class="adaptabilidade"><strong>Adaptabilidade</strong></li>
@@ -62,7 +83,7 @@
     <br>
         <!-- seção-4 -->
     <h4>Links internos.</h4>
-    <ol>
+    <ol id="link-interno">
         <li><a href="#nome">Nome</a></li>
         <li><a href="#nascimento">Sobre</a></li>
         <li><a href="#qualidades">Habilidades</a></li>
