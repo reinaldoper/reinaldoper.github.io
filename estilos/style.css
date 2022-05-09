@@ -6,7 +6,7 @@ h1{
     text-align: left;
 }
 body{
-    background-color:rgb(195, 206, 207);
+    background-color:rgba(171, 199, 179, 0.981);
     font-family: 'Montserrat', sans-serif;
 }
 #city-natal{
@@ -28,7 +28,7 @@ body{
     font-size: 18px;
 }
 #habilidades, #link-interno{
-    background-color: rgba(150, 122, 113, 0.794);
+    background-color: rgba(177, 163, 158, 0.794);
 }
 #nome{
     text-align: center;
