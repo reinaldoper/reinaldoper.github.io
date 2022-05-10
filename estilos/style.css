@@ -3,10 +3,11 @@ h1{
 }
 .description{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    top: 50px;
+    top: 50%;
     position:relative;
     left: 2px;
-    text-align: center;
+    text-align:justify;
+    right: 2px;
 }
 body{
     background-color:rgba(171, 199, 179, 0.981);
