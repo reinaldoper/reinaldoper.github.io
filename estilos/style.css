@@ -1,13 +1,17 @@
 h1{
     font-family:sans-serif;
 }
-#nascimento{
+.description{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: left;
+    top: 10px;
+    left: 25%;
+    position: absolute;
+
 }
 body{
     background-color:rgba(171, 199, 179, 0.981);
     font-family: 'Montserrat', sans-serif;
+    padding: 4%;
 }
 #city-natal{
     font-style: italic;
@@ -30,13 +34,18 @@ body{
 #habilidades, #link-interno{
     background-color: rgba(177, 163, 158, 0.794);
 }
-#nome{
+.nome{
     text-align: center;
     font-style: italic;
 }
 #foto{
     border-radius: 10%;
+    float: left;
+    height: 170px;
+    padding: 10px;
+    background-color:blue;
 }
-div{
-    text-align: center;
+.image{
+    height: 190px;  
+    position: relative; 
 }
