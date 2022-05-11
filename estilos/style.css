@@ -50,3 +50,9 @@ body{
     height: 190px;  
     
 }
+article{
+    display: inline-block;
+}
+footer{
+    width: 200px;
+}
