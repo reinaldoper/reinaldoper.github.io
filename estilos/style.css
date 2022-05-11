@@ -53,6 +53,8 @@ body{
 }
 article{
     display: inline-block;
+    border: 5px solid green;
+    padding: 10px 10px;
 }
 footer{
     width: 200px;
