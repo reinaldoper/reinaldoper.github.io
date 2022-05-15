@@ -1,0 +1,95 @@
+.list-menu li{
+    display: inline-block;
+    width: 120px;
+    margin: 20px;
+    font-size: 20px;
+    margin-left: 40px;
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    list-style: none;
+   
+    background-color: rgb(140, 231, 231);
+    
+}
+p{
+    text-align: justify;
+    color:black;
+   
+}
+body{
+    background-color: aqua;
+    font-family: 'Radio Canada', sans-serif;
+}
+h2{
+    color: rgb(224, 119, 70);
+}
+
+td, th{
+    border: 1px solid gray;
+}
+#camarao{
+    float: left;
+    width: 225px;
+    border-radius: 4%;
+}
+footer{
+    text-align: center;
+    color: rgb(236, 79, 79);
+    margin-top: 20px;
+    font-size: 20px;
+}
+h3{
+    color: rgb(126, 22, 22); 
+    text-align: center;
+}
+#name-cientific{
+    margin-left: 10px;
+}
+
+article{
+    display: inline-block;
+    margin: 0;
+}
+section{
+    display: inline-block;
+}
+
+main{
+    display:block;
+}
+
+.curiosidades{
+    float:right;
+    width: 300px;
+    background-color: rgb(223, 120, 120);
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px 10px;
+    border-radius: 5%;
+}
+#aside2{
+    margin-left: 10px;
+    float:right;
+    width: 500px;
+    background-color: rgb(223, 120, 120);
+    margin-left: 10px;
+    padding: 10px 10px;
+    border-radius: 5%;
+}
+h1{
+    text-align: center;
+}
+p{
+    margin-right: 330px;
+    
+}
+#nome-cientifico{
+    font-size: large;
+}
+table{
+    background-color: blue;
+}
+
