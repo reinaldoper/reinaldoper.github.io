@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(253, 251, 251);
+    font-family: 'Montserrat', sans-serif;
+}
+#cabecalho {
+    position: fixed;
+    top: 0;
+    height: 100px;
+    font-size: large;
+    background-color: green;
+    text-align: center;
+    width:100%;
+}
+#rodape{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+article{
+   width: 700px;
+   padding: 10px 10px 10px 10px;
+   margin-left: 40px;
+   text-align: justify;
+}
+
+#licoes_a_aprender{
+   float: right;
+}
+#minha_foto{
+    border-radius: 4%;
+    margin-top: 85px;
+}
+
+h2{
+    text-align: center;
+    color: brown;
+}
+h1, h3{
+    color: brown;
+}
+.lado-esquerdo{
+    display: inline-block;
+}
+.depoimento{
+    text-align:justify;
+    margin-left: 40px;
+    background-color: rgb(150, 226, 207);
+    font-size: larger;
+    color: blue;
+}
+.listas{
+    display: inline-flex;
+    margin-left: 40px;
+    background-color: rgb(180, 225, 203);
+    font-size: larger;
+}
+
+p{
+    line-height: 20px;
+}
+.lado-direito{
+    
+    padding: 10px 10px 10px 10px;
+    margin-right: 40px;
+    text-align: justify;
+    float: right;
+}
+nav a{
+    font-size: 20px;
+    margin-left: 10px;
+}
+td{
+    width: 101px;
+    height: 40px;
+}
+.tabela{
+    width:467px;
+    border:5px;
+    background-color:antiquewhite;
+    padding: 10px 10px 10px 10px;
+    
+}
+.imagem{
+    margin-top: 10px;
+}
