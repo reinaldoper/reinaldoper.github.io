@@ -1,14 +1,13 @@
 h1{
     font-family:sans-serif;
 }
-.description{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.description, #sobre{
     top: 70%;
     left: 2px;
     text-align:center;
     right: 2px;
     padding:20px 20px;
-    
+    padding: 30px 30px;
 }
 body{
     background-color:rgba(171, 199, 179, 0.981);
@@ -45,7 +44,7 @@ body{
     float: left;
     height: 170px;
     padding: 10px;
-    background-color:blue;
+    background-color:rgb(75, 173, 212);
 }
 .image{
     height: 190px;  
@@ -53,7 +52,6 @@ body{
 }
 article{
     display: inline-block;
-    border: 5px solid green;
     padding: 10px 10px;
 }
 footer{
