@@ -3,11 +3,11 @@ h1{
 }
 .description{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    top: 30%;
-    position:relative;
+    top: 70%;
     left: 2px;
-    text-align:justify;
+    text-align:center;
     right: 2px;
+    padding:20px 20px;
     
 }
 body{
@@ -58,4 +58,12 @@ article{
 }
 footer{
     width: 200px;
+    border-top: 50px;
+    
+}
+a{
+    text-decoration: none;
+}
+#link-foto{
+    margin-top: 50px;
 }
