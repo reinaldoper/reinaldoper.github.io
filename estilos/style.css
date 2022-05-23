@@ -13,6 +13,7 @@ body{
     background-color:rgba(171, 199, 179, 0.981);
     font-family: 'Montserrat', sans-serif;
     padding: 4%;
+    display: inline-block;
 }
 #city-natal{
     font-style: italic;
@@ -57,7 +58,7 @@ article{
 footer{
     width: 200px;
     border-top: 50px;
-    
+    display: inline-block;
 }
 a{
     text-decoration: none;
@@ -66,5 +67,8 @@ a{
     margin-top: 50px;
 }
 main{
+    display: inline-block;
+}
+div{
     display: inline-block;
 }
