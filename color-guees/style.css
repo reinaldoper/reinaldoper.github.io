@@ -1,0 +1,36 @@
+#sessao{
+    display: inline-flex;
+   height: 100px;
+   text-align: center;
+}
+#answer{
+    text-align: center;
+}
+#rgb-color{
+    text-align: center;
+}
+.ball{
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    padding: 10px 10px 10px 10px;
+    margin-left: 110px;
+    margin-top: 250px;
+
+}
+
+body{
+    background-color: aqua;
+}
+#botao{
+    text-align: center;
+    margin-top: 20px;
+}
+#placar{
+    text-align: center;
+}
+.ball{
+    list-style: none;
+}
+
