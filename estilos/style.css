@@ -10,10 +10,12 @@ h1{
     padding: 30px 30px;
 }
 body{
-    background-color:rgba(171, 199, 179, 0.981);
     font-family: 'Montserrat', sans-serif;
     padding: 4%;
     display: inline-block;
+    max-width: 80%;
+    margin: 40px auto;
+    border-radius: 20px;
 }
 #city-natal{
     font-style: italic;
@@ -56,7 +58,7 @@ article{
     padding: 10px 10px;
 }
 footer{
-    width: 200px;
+    width: 250px;
     border-top: 50px;
     display: inline-block;
 }
