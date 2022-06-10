@@ -1,0 +1,176 @@
+* * {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  height: 50px;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: aliceblue;
+  font-size: 2.5em;
+}
+
+.login {
+  padding: 10px;
+  border-radius: 8px;
+  margin: auto;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.entrar {
+  width: 100px;
+  border-radius: 8px;
+  background-color: blueviolet;
+  color: aliceblue;
+}
+
+#submit-btn {
+  width: 150px;
+  height: 20px;
+  border-radius: 8px;
+  background-color: blueviolet;
+  color: aliceblue;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+img {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  margin: 10vh;
+  margin-top: 0;
+  border: 1px solid black;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: rgb(33, 147, 139);
+  color: aliceblue;
+}
+
+main {
+  display: flex;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  border: 1px solid black;
+  margin-right: 20px;
+  border-radius: 8px;
+  background-color: rgb(33, 147, 139);
+}
+
+#label-rate {
+  display: flex;
+  flex-direction: row;
+
+}
+
+footer {
+  text-align: center;
+  height: 20px;
+  color: aliceblue;
+  background-color: darkslategrey;
+
+}
+
+#casa {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+
+}
+
+#house {
+  color: darkolivegreen;
+
+}
+
+#textarea {
+  border-radius: 12px;
+
+}
+
+.input-botao {
+  border-radius: 5px;
+  width: 115px;
+
+}
+
+#form-data {
+  display: none;
+  flex-direction: column;
+  margin: 20px;
+}
+
+/* *{
+  padding: 0;
+  margin: 0;
+}
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  height: 50px;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 60px;
+}
+h1{
+  color: aliceblue;
+  font-size: 2.5em;
+}
+.login{
+  padding: 10px;
+  border-radius: 8px;
+  margin: auto;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.entrar{
+  width: 100px;
+  border-radius: 8px;
+  background-color: blueviolet;
+  color: aliceblue;
+}
+.trybewarts-login {
+  display: flex;
+}
+img {
+  display: flex;
+}
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+main {
+  display: flex;
+}
+#trybewarts-forms-logo {
+  height: 500px;
+}
+#label-rate {
+  display: flex;
+  flex-direction: row;
+}
+footer {
+  text-align: center;
+}
+#casa {
+  display: flex;
+  flex-direction: row;
+} */
+
