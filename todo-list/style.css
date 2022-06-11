@@ -1,0 +1,95 @@
+
+body{
+    background-color: darkgray;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#sessao{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-content: center;
+    background-color: brown;
+    width: 800px;
+    border-radius: 10px;
+    
+}
+#funcionamento{
+    text-align: center;
+    margin: auto;
+    color: azure;
+}
+header{
+    text-align: center;
+    color: rgb(227, 48, 16);
+}
+#texto-tarefa{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    border-radius: 8px;
+}
+#criar-tarefa{
+    width: 100px;
+    margin: auto;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(20, 114, 5);
+}
+#apaga-tudo{
+    width: 100px;
+    margin:inherit;
+    border-radius: 8px;
+    color: white;
+    background-color: red;
+}
+li{
+    margin-bottom: 2px;
+    border-radius: 5px;
+}
+.completed{
+    text-decoration: line-through solid black;
+}
+#botoes{
+    text-align: center;
+}
+#remover-finalizados{
+    width: 100px;
+    margin:inherit;
+    border-radius: 8px;
+     color: black;
+    background-color: yellow;
+}
+#salvar-tarefas{
+    width: 100px;
+    margin:inherit;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    margin-bottom: 10px;
+}
+#mover-cima{
+    width: 100px;
+    margin:inherit;
+    border-radius: 8px;
+    color: rgb(34, 191, 13);
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+#mover-baixo{
+    width: 100px;
+    margin:inherit;
+    border-radius: 8px;
+    color: rgb(62, 13, 223);
+    background-color: black;
+    margin-bottom: 10px;
+}
+#remover-selecionado {
+    width: 130px;
+    margin:inherit;
+    border-radius: 8px;
+    color: rgb(62, 13, 223);
+    background-color: black;
+    margin-bottom: 10px;
+}
