@@ -9,13 +9,18 @@ h1{
     padding:20px 20px;
     padding: 30px 30px;
 }
-body{
+main{
     font-family: 'Montserrat', sans-serif;
     padding: 4%;
-    display: inline-block;
+    display: flex;
     max-width: 80%;
-    margin: 40px auto;
+    margin-left: 40px;
     border-radius: 20px;
+    border: 1px solid black;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(243, 243, 247);
 }
 #city-natal{
     font-style: italic;
@@ -37,6 +42,8 @@ body{
 }
 #habilidades, #link-interno{
     background-color: rgba(177, 163, 158, 0.794);
+    display: flex;
+    flex-direction: column;
 }
 .nome{
     text-align: center;
@@ -58,9 +65,11 @@ article{
     padding: 10px 10px;
 }
 footer{
-    width: 250px;
-    border-top: 50px;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    background-color: darkslategrey;
+    color: white;
 }
 a{
     text-decoration: none;
@@ -68,9 +77,8 @@ a{
 #link-foto{
     margin-top: 50px;
 }
-main{
-    display: inline-block;
-}
 div{
     display: inline-block;
 }
+
+
