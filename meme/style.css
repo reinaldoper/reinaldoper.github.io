@@ -1,0 +1,118 @@
+#text-input{
+    border-radius: 5%;
+    border: 1px solid rgb(255, 38, 0);
+}
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+h1{
+    color: brown;
+}
+#meme-image-container{
+    width: 400px;
+    margin: auto;
+    height: 250px;
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+   
+}
+#text-input{
+    border-radius: 8%;
+    border: 2px solid rgb(200, 86, 20);
+    color: aqua;
+    margin-bottom: 20px;
+}
+body{
+
+    background-color: rgb(188, 225, 236);
+    margin: auto;
+}
+#meme-insert{
+    color: brown;
+    margin-top: 5px;
+    background-color: aqua;
+    border-radius: 10px;
+    border: 2px solid rgb(200, 86, 20);
+}
+input[type=file]{
+padding:5px 5px;
+background:#2d2d2d;}
+#meme-text{
+    position: absolute;
+      color:#fff;
+      line-height: 40px;
+      top: 40%;
+      font-size: 30px;
+       text-shadow: black 5px 5px 5px;
+       width: 400px;
+       word-wrap: break-word;
+}
+#meme-image{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-bottom: 5px;
+}
+
+#fire {
+    margin-top: 5px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: rgb(255, 0, 0);
+}
+#water {
+    margin-top: 5px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: rgb(0, 0, 255);
+}
+#earth {
+    margin-top: 5px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: rgb(0, 128, 0);
+}
+#images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#meme-1 {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+}
+#meme-2 {
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+#meme-3 {
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+#meme-4 {
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+body {
+    background-image:url("./imgs/download.png");
+}
