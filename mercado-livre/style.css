@@ -153,3 +153,6 @@ body {
 .cart  .cart__item {
   margin-bottom: 10px;
 }
+#input{
+  border-radius: 8px;
+}

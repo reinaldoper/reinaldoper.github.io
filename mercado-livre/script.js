@@ -1,3 +1,4 @@
+
 const createProductImageElement = (imageSource) => {
   const img = document.createElement('img');
   img.className = 'item__image';
@@ -97,10 +98,12 @@ const apagaMsg = () => {
   const b = document.querySelector('.loading');
   p.removeChild(b);
 };
+
 const receivedProduct = async () => {
   const section = document.querySelector('.items');
+  section.innerHTML = '';
   carregaMsg();
-  const obj = await fetchProducts('computador');
+  const obj = await fetchProducts('iphone');
   apagaMsg();
   const result = obj.results;
   result.forEach(({ id, title, thumbnail }) => { 
@@ -132,4 +135,5 @@ window.onload = async () => {
   myButon();
   atualizaPage(); 
   somaPrice();
+  buscaProduct();
 };
